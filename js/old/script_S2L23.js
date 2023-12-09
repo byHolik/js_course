@@ -24,7 +24,7 @@ first: for (let i = 0; i < 3; i++) {
         console.log(`Second level: ${j}`);
         for (let k = 0; k < 3; k++) {
             if (k === 2) continue first;
-            console.log(`Third level: ${k}'`);
+            console.log(`Third level: ${k}`);
         }
     }
 }
