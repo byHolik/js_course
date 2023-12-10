@@ -10,10 +10,10 @@ function returnNeighboringNumbers(number) {
 console.log(returnNeighboringNumbers(5));
 
 // Место для третьей задачи
-function getMathResult(number, repeatCounter) {
+function getMathResult(number, times) {
 	let result = number;
-	if (typeof(repeatCounter) === "number" && repeatCounter > 0) {
-		for (let i = 2; i <= repeatCounter; i++) {
+	if (typeof(times) === "number" && times > 0) {
+		for (let i = 2; i <= times; i++) {
 			result = result + "---" + number * i;
 		}
 	}
