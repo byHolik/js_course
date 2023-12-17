@@ -26,5 +26,3 @@ Object.setPrototypeOf(jonh, soldier);
 console.log(jonh.armor);
 jonh.sayHello();
 bob.sayHello();
-
-
