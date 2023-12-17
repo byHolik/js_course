@@ -61,10 +61,10 @@ console.log(add);
 
 
 const oldArray = ["a", "b", "c"];
-const newArray = oldArray.slice();
-newArray[1] = "qwerty";
+const newArray1 = oldArray.slice();
+newArray1[1] = "qwerty";
 
-console.log(newArray);
+console.log(newArray1);
 console.log(oldArray);
 
 const video = ["youtube", "vimeo", "rutube"],
@@ -86,13 +86,13 @@ log(...num);
    
 
 
-const array = ["a", "b"];
-const newArray = [...array];
-console.log(newArray);
+const array2 = ["a", "b"];
+const newArray2 = [...array2];
+console.log(newArray2);
 
 const q = {
-    one: 1,
-    two: 2
+	one: 1,
+	two: 2
 };
 
 const newObj = {...q};
