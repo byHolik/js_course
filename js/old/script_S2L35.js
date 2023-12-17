@@ -87,7 +87,7 @@ log(...num);
 
 
 const array2 = ["a", "b"];
-const newArray2 = [...array2];
+const newArray2	 = [...array2];
 console.log(newArray2);
 
 const q = {
